@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <title>Student Information Form</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <h1>Student Information Form</h1>
+        <br>
+
+        <h3>Basic Information</h3>
+        <br>
+
+        <label>Full Name :</label>
+        <input type="text" name="name" id="name" required>
+        <br><br>
+
+        <label>Student Email :</label>
+        <input type="email" name="Student Email" id="Student Email" required>
+        <br><br>
+
+        <label>Parent Name :</label>
+        <input type="text" name="Parent Name" id="Parent Name" required>
+        <br><br>
+
+        <label>Parent Email :</label>
+        <input type="email" name="Parent Email" id="Parent Email" required>
+        <br><br>
+
+        <label>Gender :</label><br>
+        <label> Male</label>
+        <input type="radio" name="Gender" id="Male">
+        <label>Female</label>
+        <input type="radio" name="Gender" id="Female">
+        <br><br>
+
+        <label>Age</label>
+        <input type="number" name="Age" id="Age" required>
+        <br><br>
+
+        <label>Date of Birth :</label>
+        <input type="date" name="DOB" id="DOB" required>
+        <br><br>
+
+        <label> Mobile Number :</label>
+        <input type="number" name="Mobile number" id="Mobile number" maxlength="10" minlength="10" required>
+        <br><br>
+
+        <label> Address :</label>
+        <textarea name="Address" row="10" col="20" placeholder="enter youre Address" required></textarea>
+
+
+        <h3>Academic Information </h3>
+
+        <label>Course :</label>
+        <select name="Course" required>
+            <option value="HTML">HTML</option>
+            <option value="Css">Css</option>
+            <option value="Java Script">Java Script</option>
+            <option value="React js">React js</option>
+            <option value="Bootstrap">Bootstrap</option>
+        </select>
+        <br>
+        <br>
+
+        <label>Skill:</label><br>
+        <input type="checkbox" name="skill">HTML
+        <input type="checkbox" name="skill"> Css
+        <input type="checkbox" name="skill"> Java Script
+        <input type="checkbox" name="skill"> React js
+        <input type="checkbox" name="skill"> Bootstrap
+        <br><br>
+
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
